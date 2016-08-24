@@ -17,8 +17,7 @@ package ya.manages
 		}
 		
 		public function getStreamUrl(cid:String):String{
-			//return 'http://live.bilibili.com/api/playurl?' + getSign('player=1&cid='+cid+'&quality=0');
-			return 'http://live.bilibili.com/api/playurl?' + 'player=1&cid=' + cid + '&quality=0';
+	
 		}
 		
 		public function UrlManager(){
