@@ -38,6 +38,9 @@ package ya.manages
 			root.addChild(Layer_Tips);
 			
 			Layer_Stage=Stage(root);
+			
+			Layer_Stage.showDefaultContextMenu = false;
+			Layer_Stage.addEventListener(MouseEvent.RIGHT_CLICK,function stageRightClick():void{});
 		}
 	}
 }
